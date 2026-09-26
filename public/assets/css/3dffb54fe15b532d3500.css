@@ -1,0 +1,3 @@
+
+/* Quiet, continuously looping photography motion. */
+.property-card .photo,.property-art,.article-card>a,.motion-frame{overflow:hidden}.motion-frame{margin:24px 0}.motion-frame .article-cover{margin:0 auto!important}.property-card .photo img,.property-art .brand-photo,.article-card img,.motion-frame .article-cover{animation:longmer-photo-drift 18s ease-in-out infinite alternate;transform-origin:center;will-change:transform}@keyframes longmer-photo-drift{from{transform:scale(1)}to{transform:scale(1.035)}}@media(prefers-reduced-motion:reduce){.property-card .photo img,.property-art .brand-photo,.article-card img,.motion-frame .article-cover{animation:none!important;transform:none!important}}

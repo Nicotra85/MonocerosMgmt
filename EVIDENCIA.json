@@ -1,0 +1,37 @@
+{
+  "scope": "Local HTTP server simulating vercel.json headers, not live Vercel",
+  "pages": 20,
+  "js_errors": [],
+  "media": [
+    {
+      "muted": true,
+      "loop": true,
+      "autoplay": true,
+      "paused": false,
+      "time": 1.737335,
+      "ready": 4
+    },
+    {
+      "muted": true,
+      "loop": true,
+      "autoplay": true,
+      "paused": false,
+      "time": 1.76355,
+      "ready": 4
+    }
+  ],
+  "inline_injection_blocked": true,
+  "expected_csp_violations": [
+    "Executing inline script violates the following Content Security Policy directive 'script-src 'self' 'sha256-09pBa6zY5l3z+EeUCffopKomPri6ZEplWgarHjl9eJU=' 'sha256-3Ou/XliJ2qGIqPCpa1ImJQEMQXvWGuBYnV8qRVeYHJg=' 'sha256-4uXH3TrN3ihV50PAfzze3wZlqCG0icgJZ4Wb9/xUw8A=' 'sha256-56XFt5a/vwQFlHq2OqnA+89tbjRpP/4n5fpjLoKcRIU=' 'sha256-9VYzAyS+ysoz3PkZpFsYjlHkklTllh4AHq+I0SsOX9s=' 'sha256-9fcl/RsSRKROdZXyPMhQAUWKGNNqW7k+uxd6t7nn9FU=' 'sha256-DiMbuyGPJ+uU9n8DdYs+1ixZfO6ao0GG4PVNN4iwhQg=' 'sha256-F/nM8QG/0vIW4tvDxmUKE/upxAYZRXe3WJT+u0Axats=' 'sha256-HsjnPLB7QCgx771vm4gIy1up+XORmm6s5m/PCLCx7PM=' 'sha256-IW0MZvNn7mwUF1XpeSdlfLBfbHly7ALDyHn4RA7pr2Q=' 'sha256-JGH2h8Mx8uK1FGksJCaxIcWQNCrnYdP19bdJeXj/wkg=' 'sha256-Kfnp4Wld5G7uty5xgJBK1mPpR/ZVeIEwoMH2HRpn99A=' 'sha256-PV6oWoZBf8tLE5KbkdslpKryEP78r1viKni1K/GueQ4=' 'sha256-Pl14CCfs643ZFAahPxEktd9FdIlDORNqk8nGxeJEzzo=' 'sha256-bFg0mWIMv+fVQ1BQ3X0e5sLYueeaHu5+oDmq3IHm/lg=' 'sha256-odBIGzCnuK1LP2reLTwGb8FE3YXsem7qDWj8TR+eloQ=' 'sha256-tben+zihFYr9KB+TVkxT/O5czt/qT4Bps8LoGckrBpo=''. Either the 'unsafe-inline' keyword, a hash ('sha256-EyRbU8zJQ2qSyLQlaYUHOENMSAbNB/5WwSL2uglwT0Q='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked."
+  ],
+  "unimplemented_sensitive_routes": "404 locally",
+  "fonts": "External font requests excluded from test because network access unavailable; explicit Google Fonts allowlist retained",
+  "backup_restore": {
+    "status": "PASS",
+    "files_verified": 63,
+    "validation": "SHA-256 of every restored file; security audit passed on restored copy",
+    "scope": "Local static package only; no offsite schedule, cloud recovery or database restore"
+  },
+  "independent_review": "Completed; no current blocker; CSS dependency and symlink regression checks added",
+  "javascript_syntax": "PASS"
+}

@@ -1,0 +1,7 @@
+
+.portfolio-grid .portfolio-row{display:grid;grid-template-columns:1.5fr 1fr 1fr;align-items:center;gap:20px;padding:22px 0;min-height:0}
+.portfolio-grid .portfolio-row strong,.portfolio-grid .portfolio-row .list-sector,.portfolio-grid .portfolio-row .list-location{grid-column:auto;grid-row:auto}
+.article-card>img{width:100%;height:150px;max-height:150px;aspect-ratio:auto;object-fit:cover}
+.article-cover{display:block;width:100%;max-width:560px;height:240px;max-height:240px;object-fit:cover}
+.motion-frame:has(>.article-cover){width:100%;max-width:560px;margin:28px 0 20px;overflow:hidden}
+@media(max-width:640px){.portfolio-grid .portfolio-row{grid-template-columns:1fr 1fr;gap:10px;padding:20px 0}.portfolio-grid .portfolio-row strong{grid-column:1/-1}.article-cover{height:190px;max-height:190px}.article-card>img{height:140px;max-height:140px}}

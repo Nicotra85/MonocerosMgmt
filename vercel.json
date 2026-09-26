@@ -1,0 +1,49 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "outputDirectory": "public",
+  "cleanUrls": true,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'none'; script-src 'self' 'sha256-09pBa6zY5l3z+EeUCffopKomPri6ZEplWgarHjl9eJU=' 'sha256-3Ou/XliJ2qGIqPCpa1ImJQEMQXvWGuBYnV8qRVeYHJg=' 'sha256-4uXH3TrN3ihV50PAfzze3wZlqCG0icgJZ4Wb9/xUw8A=' 'sha256-56XFt5a/vwQFlHq2OqnA+89tbjRpP/4n5fpjLoKcRIU=' 'sha256-9VYzAyS+ysoz3PkZpFsYjlHkklTllh4AHq+I0SsOX9s=' 'sha256-9fcl/RsSRKROdZXyPMhQAUWKGNNqW7k+uxd6t7nn9FU=' 'sha256-DiMbuyGPJ+uU9n8DdYs+1ixZfO6ao0GG4PVNN4iwhQg=' 'sha256-F/nM8QG/0vIW4tvDxmUKE/upxAYZRXe3WJT+u0Axats=' 'sha256-HsjnPLB7QCgx771vm4gIy1up+XORmm6s5m/PCLCx7PM=' 'sha256-IW0MZvNn7mwUF1XpeSdlfLBfbHly7ALDyHn4RA7pr2Q=' 'sha256-JGH2h8Mx8uK1FGksJCaxIcWQNCrnYdP19bdJeXj/wkg=' 'sha256-Kfnp4Wld5G7uty5xgJBK1mPpR/ZVeIEwoMH2HRpn99A=' 'sha256-PV6oWoZBf8tLE5KbkdslpKryEP78r1viKni1K/GueQ4=' 'sha256-Pl14CCfs643ZFAahPxEktd9FdIlDORNqk8nGxeJEzzo=' 'sha256-bFg0mWIMv+fVQ1BQ3X0e5sLYueeaHu5+oDmq3IHm/lg=' 'sha256-odBIGzCnuK1LP2reLTwGb8FE3YXsem7qDWj8TR+eloQ=' 'sha256-tben+zihFYr9KB+TVkxT/O5czt/qT4Bps8LoGckrBpo='; script-src-attr 'none'; style-src 'self' https://fonts.googleapis.com; style-src-attr 'none'; img-src 'self'; media-src 'self'; font-src 'self' https://fonts.gstatic.com; connect-src 'none'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; frame-src 'none'; form-action 'none'; worker-src 'none'; manifest-src 'self'; upgrade-insecure-requests"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), payment=(), usb=(), serial=()"
+        },
+        {
+          "key": "Cross-Origin-Opener-Policy",
+          "value": "same-origin"
+        },
+        {
+          "key": "Cross-Origin-Resource-Policy",
+          "value": "same-origin"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=31536000"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    }
+  ]
+}

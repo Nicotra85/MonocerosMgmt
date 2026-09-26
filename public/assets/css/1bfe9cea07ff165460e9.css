@@ -1,0 +1,12 @@
+:root{--mono-logo:url("/assets/monoceros-signature.png")}
+/* Monoceros identity: the approved signature is used as a CSS mask, without changing the source artwork. */
+.mono-brand{display:block!important;width:160px;height:auto!important;aspect-ratio:5/1;min-height:0!important;background:#163b2e;mask-image:var(--mono-logo);-webkit-mask-image:var(--mono-logo);mask-repeat:no-repeat;-webkit-mask-repeat:no-repeat;mask-size:112.3% 277.2%;-webkit-mask-size:112.3% 277.2%;mask-position:50% 40.2%;-webkit-mask-position:50% 40.2%;}
+#longmer-signature .smallbrand{display:block;min-height:32px;flex-shrink:0}
+#longmer-signature #lm-drawn .logo-frame{aspect-ratio:1580/420;width:410px;max-width:82%;margin:25px auto 28px;mix-blend-mode:normal}
+#longmer-signature #lm-drawn .logo-frame .mono-brand{width:100%;height:100%!important;aspect-ratio:auto;mask-size:112.3% 211.2%;-webkit-mask-size:112.3% 211.2%;mask-position:50% 48.8%;-webkit-mask-position:50% 48.8%;animation:mono-signature 10s ease-in-out infinite}
+@keyframes mono-signature{0%{clip-path:inset(0 100% 0 0);opacity:.3}30%,85%{clip-path:inset(0);opacity:1}100%{clip-path:inset(0);opacity:.75}}
+.simple-nav .mono-brand{width:170px}.simple-nav>a{display:flex;align-items:center;min-height:44px}
+#longmer-signature .header .smallbrand{display:flex;align-items:center}
+@media(max-width:600px){.mono-brand{width:133px}#longmer-signature .header{gap:12px}#longmer-signature .header .login-actions{margin-left:auto}.simple-nav .login-actions{justify-content:flex-start}#longmer-signature #lm-drawn .logo-frame{width:320px}}
+@media(prefers-reduced-motion:reduce){#longmer-signature #lm-drawn .logo-frame .mono-brand{animation:none;clip-path:none}}
+@media(max-width:560px){#longmer-signature .header .smallbrand{order:0}#longmer-signature .header>.language{order:1;margin-left:auto}#longmer-signature .header .login-actions{order:2;width:100%;justify-content:flex-end}#longmer-signature .header nav{order:3;width:100%;justify-content:space-between;gap:8px}}
