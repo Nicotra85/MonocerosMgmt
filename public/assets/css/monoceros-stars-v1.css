@@ -1,0 +1,6 @@
+/* Replace the old wipe only in the hero; keep full logos elsewhere. */
+#longmer-signature #lm-drawn .logo-frame[data-stars-logo]{aspect-ratio:1200/390}
+#longmer-signature #lm-drawn .logo-frame[data-stars-logo] .mono-brand{animation:none;clip-path:none}
+#longmer-signature #lm-drawn .logo-frame[data-stars-logo] canvas{display:none;position:absolute;inset:0;width:100%;height:100%}
+#longmer-signature #lm-drawn .logo-frame[data-stars-logo].stars-ready canvas{display:block}
+#longmer-signature #lm-drawn .logo-frame[data-stars-logo].stars-ready .mono-brand{visibility:hidden}

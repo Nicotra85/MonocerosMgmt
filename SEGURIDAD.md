@@ -47,6 +47,8 @@ No se inspeccionaron el historial Git, los miembros del repositorio, los secreto
 
 **Excepción externa:** se mantienen Manrope y Syne mediante Google Fonts, autorizando únicamente sus dominios de estilos y fuentes. La descarga para alojarlas localmente no estuvo disponible en este entorno. Las pruebas de navegador excluyeron esas solicitudes externas y usaron las fuentes de reserva; los archivos de imágenes, videos, CSS del sitio y JavaScript sí se probaron localmente. No se incorporaron scripts de terceros.
 
+La portada ahora utiliza la animación aprobada «Stars to Ink» con canvas y recursos del propio sitio. No se relajó la política CSP para incorporarla.
+
 ## Pruebas y límites
 
 Se verificaron las 20 páginas, JavaScript sin errores de ejecución, recursos locales, filtros 5/4/9, marcador de Yardi, vista móvil sin desbordamiento, movimiento reducido y los dos videos de la portada reproduciéndose con autoplay, muted y loop. La navegación normal no produjo violaciones CSP; la inyección deliberada sí se bloqueó. La sintaxis de los archivos JS pasó la comprobación de Node.

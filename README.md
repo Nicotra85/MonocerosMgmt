@@ -1,6 +1,6 @@
 # Monoceros — versión con seguridad reforzada
 
-Preparada el 26 de septiembre de 2026. Este paquete contiene la opción original azul/naranja, en inglés y español, con las imágenes y películas existentes. No se ha publicado ni se han cambiado tus cuentas. Mantiene los botones de Yardi como marcadores; no solicita credenciales ni contiene informes privados.
+Preparada el 26 de septiembre de 2026. Este paquete contiene la opción original azul/naranja, en inglés y español, con las imágenes y películas existentes. No se ha publicado ni se han cambiado tus cuentas. Incluye la animación aprobada «Stars to Ink»: campo orgánico de estrellas, transición a la firma y repetición automática. Respeta la preferencia de movimiento reducido. Mantiene los botones de Yardi como marcadores; no solicita credenciales ni contiene informes privados.
 
 ## Qué hacer con el ZIP
 
